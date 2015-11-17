@@ -13,7 +13,7 @@ Copy and paste the file PGChoiceViewController.swift to your project.
 
 ### Example Usage
 
-![](http://i.imgur.com/JWma37Z.gifv)
+![](http://i.imgur.com/JWma37Z.gif)
 
 See the example project or example code below.
 
