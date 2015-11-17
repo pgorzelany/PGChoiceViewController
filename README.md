@@ -13,6 +13,8 @@ Copy and paste the file PGChoiceViewController.swift to your project.
 
 ### Example Usage
 
+<iframe src="http://gfycat.com/ifr/UncomfortableDeterminedHypacrosaurus" frameborder="0" scrolling="no" width="616" height="1144" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+
 See the example project or example code below.
 
 ```
