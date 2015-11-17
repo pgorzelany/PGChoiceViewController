@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		55DE9ADD1BFBBD5C0082F200 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9ADC1BFBBD5C0082F200 /* AppDelegate.swift */; };
-		55DE9ADF1BFBBD5C0082F200 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9ADE1BFBBD5C0082F200 /* ViewController.swift */; };
 		55DE9AE21BFBBD5C0082F200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DE9AE01BFBBD5C0082F200 /* Main.storyboard */; };
 		55DE9AE41BFBBD5C0082F200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DE9AE31BFBBD5C0082F200 /* Assets.xcassets */; };
 		55DE9AE71BFBBD5C0082F200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DE9AE51BFBBD5C0082F200 /* LaunchScreen.storyboard */; };
+		55DE9AEF1BFBBED60082F200 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9AEE1BFBBED60082F200 /* README.md */; };
+		55DE9AF11BFBBF0A0082F200 /* LICENCE in Resources */ = {isa = PBXBuildFile; fileRef = 55DE9AF01BFBBF0A0082F200 /* LICENCE */; };
+		55DE9AF41BFBC07A0082F200 /* PGChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9AF31BFBC07A0082F200 /* PGChoiceViewController.swift */; };
+		55DE9AF61BFBC12A0082F200 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9AF51BFBC12A0082F200 /* SettingsTableViewController.swift */; };
+		55DE9AF91BFBC1A50082F200 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9AF81BFBC1A50082F200 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55DE9AD91BFBBD5C0082F200 /* PGChoiceViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGChoiceViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DE9ADC1BFBBD5C0082F200 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55DE9ADE1BFBBD5C0082F200 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		55DE9AE11BFBBD5C0082F200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55DE9AE31BFBBD5C0082F200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DE9AE61BFBBD5C0082F200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55DE9AE81BFBBD5C0082F200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DE9AEE1BFBBED60082F200 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		55DE9AF01BFBBF0A0082F200 /* LICENCE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE; sourceTree = "<group>"; };
+		55DE9AF31BFBC07A0082F200 /* PGChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGChoiceViewController.swift; sourceTree = "<group>"; };
+		55DE9AF51BFBC12A0082F200 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		55DE9AF81BFBC1A50082F200 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 			children = (
 				55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewController */,
 				55DE9ADA1BFBBD5C0082F200 /* Products */,
+				55DE9AF31BFBC07A0082F200 /* PGChoiceViewController.swift */,
+				55DE9AEE1BFBBED60082F200 /* README.md */,
+				55DE9AF01BFBBF0A0082F200 /* LICENCE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,24 @@
 		55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewController */ = {
 			isa = PBXGroup;
 			children = (
-				55DE9ADC1BFBBD5C0082F200 /* AppDelegate.swift */,
-				55DE9ADE1BFBBD5C0082F200 /* ViewController.swift */,
 				55DE9AE01BFBBD5C0082F200 /* Main.storyboard */,
+				55DE9AF51BFBC12A0082F200 /* SettingsTableViewController.swift */,
+				55DE9AF81BFBC1A50082F200 /* Settings.swift */,
+				55DE9AF21BFBC03F0082F200 /* Other */,
+			);
+			name = PGChoiceViewController;
+			path = /Users/mlody/Projects/PGChoiceViewController/PGChoiceViewController;
+			sourceTree = "<absolute>";
+		};
+		55DE9AF21BFBC03F0082F200 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				55DE9ADC1BFBBD5C0082F200 /* AppDelegate.swift */,
 				55DE9AE31BFBBD5C0082F200 /* Assets.xcassets */,
 				55DE9AE51BFBBD5C0082F200 /* LaunchScreen.storyboard */,
 				55DE9AE81BFBBD5C0082F200 /* Info.plist */,
 			);
-			path = PGChoiceViewController;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +145,7 @@
 			files = (
 				55DE9AE71BFBBD5C0082F200 /* LaunchScreen.storyboard in Resources */,
 				55DE9AE41BFBBD5C0082F200 /* Assets.xcassets in Resources */,
+				55DE9AF11BFBBF0A0082F200 /* LICENCE in Resources */,
 				55DE9AE21BFBBD5C0082F200 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DE9ADF1BFBBD5C0082F200 /* ViewController.swift in Sources */,
+				55DE9AF61BFBC12A0082F200 /* SettingsTableViewController.swift in Sources */,
+				55DE9AF41BFBC07A0082F200 /* PGChoiceViewController.swift in Sources */,
+				55DE9AEF1BFBBED60082F200 /* README.md in Sources */,
 				55DE9ADD1BFBBD5C0082F200 /* AppDelegate.swift in Sources */,
+				55DE9AF91BFBC1A50082F200 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
