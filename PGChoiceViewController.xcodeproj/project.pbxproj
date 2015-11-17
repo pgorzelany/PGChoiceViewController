@@ -46,7 +46,7 @@
 		55DE9AD01BFBBD5C0082F200 = {
 			isa = PBXGroup;
 			children = (
-				55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewController */,
+				55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewControllerExample */,
 				55DE9ADA1BFBBD5C0082F200 /* Products */,
 				55DE9AF31BFBC07A0082F200 /* PGChoiceViewController.swift */,
 				55DE9AEE1BFBBED60082F200 /* README.md */,
@@ -62,7 +62,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewController */ = {
+		55DE9ADB1BFBBD5C0082F200 /* PGChoiceViewControllerExample */ = {
 			isa = PBXGroup;
 			children = (
 				55DE9AE01BFBBD5C0082F200 /* Main.storyboard */,
@@ -70,7 +70,7 @@
 				55DE9AF81BFBC1A50082F200 /* Settings.swift */,
 				55DE9AF21BFBC03F0082F200 /* Other */,
 			);
-			name = PGChoiceViewController;
+			name = PGChoiceViewControllerExample;
 			path = /Users/mlody/Projects/PGChoiceViewController/PGChoiceViewController;
 			sourceTree = "<absolute>";
 		};
