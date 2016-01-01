@@ -1,7 +1,5 @@
 # PGChoiceViewController
 
-lalalalalal
-
 ### Description
 
 A subclass of UITableViewController that presents a simple UITableView with cells based on the passed items.
